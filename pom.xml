@@ -8,6 +8,7 @@
         <module>eureka-producer</module>
         <module>eureka-consumer</module>
         <module>eureka-producer-two</module>
+        <module>config</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
