@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: eureka-conusmer
+  profiles:
+    active: dev
+
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: cloud-config
+      profile: ${spring.profiles.active}
+      label: master
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
