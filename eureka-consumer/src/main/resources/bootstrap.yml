@@ -1,6 +1,6 @@
 spring:
   application:
-    name: eureka-conusmer
+    name: eureka-consumer
   profiles:
     active: dev
 
